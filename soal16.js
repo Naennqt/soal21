@@ -1,0 +1,10 @@
+const prompt=require('prompt-sync')({sigint:true})
+let angka = Number(prompt('Masukkan angka : '))
+if (angka === 1)
+    console.log(`Selamat Anda Juara Utama`)
+else if (angka===2)
+    console.log(`Selamat Amda Runner Up`)
+else if (angka===3)
+    console.log(`Selamat Anda Juara Ketiga`)
+else
+    console.log(`Inputan Anda Salah!`)
